@@ -1,4 +1,3 @@
-import android.service.quickaccesswallet.WalletCard
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
@@ -21,7 +20,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import com.simsekselim.expandablecard.SwipeCard
+import com.simsekselim.expandablecard.model.MenuItem
 import com.simsekselim.expandablecard.ui.theme.Shapes
 
 @ExperimentalMaterialApi
@@ -95,7 +94,7 @@ fun ExpandableCard(
                     maxLines = descriptionMaxLines,
                     overflow = TextOverflow.Ellipsis
                 )
-                SwipeCard()
+
             }
         }
     }
